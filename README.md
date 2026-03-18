@@ -8,7 +8,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM:
-server:
+server.py:
 ```
 import socket
 s = socket.socket()
@@ -30,7 +30,7 @@ while True:
 conn.close()  
 s.close()
 ```
-cilent:
+cilent.py:
 ~~~
 import socket
 c = socket.socket()
@@ -58,8 +58,9 @@ while True:
 c.close()  
 ~~~
 ## OUPUT:
+server:
 <img width="690" height="166" alt="image" src="https://github.com/user-attachments/assets/0d753ff3-0cf1-4a32-a106-6771289608f1" />
-
+cilent:
 <img width="699" height="221" alt="image" src="https://github.com/user-attachments/assets/0551cafe-8689-448d-93d1-7929d4226bd0" />
 
 ## RESULT:
